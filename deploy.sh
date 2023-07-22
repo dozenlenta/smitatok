@@ -12,7 +12,7 @@ install_dependencies() {
     done
 
     if [ ! -f "wazuh_plugin.zip" ];then
-        echo "[*] Downloading Wazuh plugin"
+        echo "[*] Downloading Wazuh famous plugin"
         wget -nv -q --show-progress https://github.com/wazuh/wazuh-kibana-app/releases/download/v4.2.5-7.12.1/wazuh_kibana-4.2.5_7.12.1-1.zip -O wazuh_plugin.zip
     fi
 
